@@ -11,7 +11,7 @@ import { Router } from '@angular/router';
 })
 export class UserService {
   // private apiUrl = 'http://localhost:8000/api';
-  private apiUrl = 'https://manage-users-mtac.onrender.com';
+  private apiUrl = 'https://manage-users-mtac.onrender.com/api';
 
   constructor(private http: HttpClient, private cookieService: CookieService, private router: Router) {}
 
